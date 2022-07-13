@@ -8,6 +8,7 @@ This enables us to use explicit instantiation as well as implicit instantiation.
 
 ```
 cmake -S . -B build
+cmake --build build
 cd build
 ./app.exe
 ```
