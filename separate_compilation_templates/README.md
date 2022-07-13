@@ -8,6 +8,7 @@ This results in increasing compile and link time.
 **Compiling and running the code**
 ```
 cmake -S . -B build
+cmake --build build
 cd build
 ./app.exe
 ```
