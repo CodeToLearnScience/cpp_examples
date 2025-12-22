@@ -30,6 +30,18 @@ int main() {
     is >> lang.designer;
     is >> lang.date;
     languages.push_back(lang);
+
+    // We can also get the following way
+    /* std::string lang;
+     * std::string designer;
+     * int year;
+     *
+     * is >> lang;
+     * is >> designer;
+     * is >> data;
+     *
+     * languages.push_back({lang, designer, data}};
+     */
   }
 
   for (auto &el : languages) {
