@@ -160,18 +160,23 @@ public:
 };
 
 int main() {
+  cout << "constructor example 1\n";
   refrigerator fridge;
   fridge.print();
 
+  cout << "constructor example 2\n";
   refrigerator1 fridge1;
   fridge1.print();
 
+  cout << "constructor example 3\n";
   refrigerator2 fridge2;
   fridge2.print();
 
+  cout << "constructor example 4\n";
   refrigerator3 fridge3;
   fridge3.print();
 
+  cout << "constructor example 5\n";
   refrigerator4 fridge4;
   fridge4.print();
 }
